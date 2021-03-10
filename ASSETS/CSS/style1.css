@@ -1,0 +1,414 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin:0;
+	padding: 0;
+	background-color: #F8F7F5 ;
+}
+
+/*Header styling*/
+#home_header {
+	display: flex;
+	width: 100%;
+	color: white;
+	background-color: black;
+	justify-content: space-between;
+	padding-right: 0.5vw;
+	padding-left: 0.5vw;
+}
+
+#home_header h2{
+	font-size: 1.3rem;
+}
+#home_header a img{
+	height: 50px;
+	width: 50px;
+	padding-top: 5px;
+}
+
+#Website_title{
+	font-family: Courier, monospace;
+}
+
+/*Styling the index page*/
+#HomeLinks{
+	display: flex;
+	padding-top: 12vw;
+	padding-bottom: 15vh;
+	justify-content: space-around;
+}
+
+.home_buttons{
+	width: 20vw;
+	background-color: black;
+	color: white;
+	text-align: center;
+	height: 25vw;
+	border-radius: 20px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: white;
+	font-family: 'Brush Script MT', cursive;
+	font-size: 2vw;
+	display: grid;
+}
+
+
+#HomeLink1{
+	background-image: url(../image/search.png);
+	background-size: 17vw 17vw;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#HomeLink2{
+	background-image: url(../image/reserve.png);
+	background-size: 17vw 17vw;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#HomeLink3{
+	background-image: url(../image/book.png);
+	background-size: 17vw 17vw;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+footer{
+	background-color: black;
+	height: 15vh;
+	text-align: center;
+}
+
+footer div{
+	padding-top: 5vh;
+	text-align: center;
+}
+
+footer div p{
+	margin: none;
+}
+
+#LogOut{
+	width: 100%; 
+	text-align: center;
+}
+
+footer div p a{
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding-right:2vw;
+	padding-left:2vw;
+	padding-top:0.5vw;
+	padding-bottom:0.5vw;
+	font-family: Monaco, monospace;
+	border-radius: 40px;
+}
+
+footer div p a:hover{
+	background-color: grey;
+}
+
+/*login page styling*/
+#Website_title_login{
+	text-align: center;
+	background-color: black;
+	height: 60px;
+}
+
+
+#Website_title_login h2{
+	color: white;
+	font-family: Courier, monospace;
+	margin: 0;
+	padding: 0;
+	font-size: 1.5rem;
+	padding-top: 17px;
+}
+
+#LoginForm{
+	text-align: center;
+	background-color: black;
+	margin: 10vh auto;
+	padding-bottom: 2vh;
+	width: 30vw;
+	height: auto;
+	border-radius: 30px;
+}
+
+#LoginForm h3{
+	color: white;
+	padding-top: 2vh;
+	font-family: Courier, monospace;
+	font-size: 2vw;
+}
+
+
+#LoginForm form div{
+	color: white;
+	padding-top: 0.5vh;
+}
+
+#LoginForm form div label{
+	text-align: left;
+	display: block;
+	margin: 10px;
+}
+
+#LoginForm form div input{
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+
+#LoginForm form p{
+	color: white;
+}
+
+#LoginForm form p a{
+	color: red;
+	text-decoration: none;
+}
+
+#LoginForm form div button{
+	width: 20%;
+	height: 30px;
+	border-radius: 50px;
+}
+
+#login_Page{
+	background-image: url(../image/login.jpg);
+}
+
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 2px solid red; 
+	background: #f2dede; 
+	border-radius: 20px; 
+	text-align: center;
+	color: red;
+}
+
+
+/*Search Book Page Styling*/
+#search_main{
+	text-align: center;
+	height: auto;
+	padding-bottom: 12vh;
+	height: auto;
+
+}
+
+#Search{
+	display: flex;
+	padding-top: auto;
+	padding-bottom: auto;
+	justify-content: space-around;
+	height: auto;
+}
+
+#Search p{
+	width: 20vw;
+	background-color: black;
+	text-align: center;
+	height: 25vw;
+	border-radius: 20px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: white;
+	font-family: 'Brush Script MT', cursive;
+	font-size: 2vw;
+	display: grid;
+	padding-bottom: 20vh;
+}
+
+#Search p a{
+	text-decoration: none;
+	color: white;
+}
+
+#SearchOptions{
+	visibility: hidden;
+	display: block;
+}
+
+#search_title{
+	font-size: 2vw;
+}
+
+#BookAutor {
+	background-image: url(../image/author.png);
+	background-size: 17vw 17vw;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#BookTitle {
+	background-image: url(../image/title.png);
+	background-size: 17vw 17vw;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#BookCategory {
+	background-image: url(../image/category.png);
+	background-size: 17vw 17vw;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.BookA_T {
+	background-image: url(../image/notebook.png);
+	background-size: 17vw 17vw;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#Another_opt{
+	visibility: hidden;
+	text-decoration: none;
+	background-color:#946d1f;
+	color: white;
+	padding: 2vw;
+	border-radius: 50px;
+}
+
+
+
+#error_main{
+	visibility: visible;
+}
+
+#option1, #option2, #option3, #option4{
+	display: none;
+}
+
+#option1 label, #option2 label, #option3 label, #option4 label{
+	text-align: center;
+	display: block;
+	margin: 10px;
+}
+
+#option1 input, #option2 input, #option3 input, #option4 input{
+	padding: 1vw;
+	display: block;
+	margin: 10px;
+	width: 100%;
+}
+
+#Search_results_hide{
+	visibility: visible;
+	display: block;
+}
+
+#display_table{
+	width:100%;
+	padding: 0vw 10vw 0vw 10vw;
+}
+
+#display_table table, #display_table td, #display_table th{
+	text-align: center;
+	border: 1px solid black;
+}
+
+#display_table table{
+	width: 100%;
+}
+
+#display_table1{
+	width:100%;
+	padding: 0vw 10vw 0vw 10vw;
+}
+
+#display_table1 table, #display_table1 td, #display_table1 th{
+	text-align: center;
+}
+
+#display_table1 table{
+	width: 100%;
+}
+
+#extra_option{
+	text-align: center;
+	margin-bottom: 100px;
+	width: 100%;
+}
+
+#extra_option a{
+	text-decoration: none;
+	background-color:#946d1f;
+	color: white;
+	padding: 2vw;
+	border-radius: 50px; 
+	margin: 20px;
+	width: 5vw;
+}
+
+
+#reserve_book_home{
+	height: 210px;
+}
+
+#reserve_book_hd{
+	text-align: center;
+	padding-top: 70px
+}
+
+#Confirm_reservation{
+	text-align: center;
+	margin-bottom: 280px;
+}
+
+#Confirm_reservation2{
+	text-align: center;
+	margin-bottom: 485px;
+}
+
+#space{
+	height: 340px;
+}
+
+.reserved_table{
+	padding-bottom: 300px;
+}
+#space2{
+	margin-top: 100px;
+	margin-bottom: 478px; 
+}
+
+.success{
+	text-align: center;
+	width: 100%;
+}
+
+#RB_heading{
+	text-align: center;
+}
+
+#No_RB{
+	text-align: center;
+	color: red;
+}
+
+.pagination{
+	list-style: none;
+	text-align: center;
+	display: inline-block;
+	padding-left: 35vw;
+
+	padding-bottom: 100px;
+}
+
+ul li a{
+	color: grey;
+}

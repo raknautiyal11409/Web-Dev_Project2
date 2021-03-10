@@ -1,0 +1,203 @@
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin:0;
+	padding: 0;
+	background-color: #F8F7F5 ;
+}
+
+/*Header styling*/
+#home_header {
+	display: flex;
+	width: 100%;
+	color: white;
+	background-color: black;
+	justify-content: space-between;
+	padding-right: 0.5vw;
+	padding-left: 0.5vw;
+}
+
+#home_header h2{
+	font-size: 1.3rem;
+}
+#home_header a img{
+	height: 50px;
+	width: 50px;
+	padding-top: 5px;
+}
+
+#Website_title{
+	font-family: Courier, monospace;
+}
+
+/*Styling the index page*/
+#HomeLinks{
+	display: flex;
+	padding-top: 12vw;
+	padding-bottom: 15vh;
+	justify-content: space-around;
+}
+
+.home_buttons{
+	width: 20vw;
+	background-color: black;
+	color: white;
+	text-align: center;
+	height: 25vw;
+	border-radius: 20px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: white;
+	font-family: 'Brush Script MT', cursive;
+	font-size: 2vw;
+	display: grid;
+}
+
+
+#HomeLink1{
+	background-image: url(../image/search.png);
+	background-size: 17vw 17vw;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#HomeLink2{
+	background-image: url(../image/reserve.png);
+	background-size: 17vw 17vw;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#HomeLink3{
+	background-image: url(../image/book.png);
+	background-size: 17vw 17vw;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+footer{
+	background-color: black;
+	height: 15vh;
+	text-align: center;
+}
+
+footer div{
+	padding-top: 5vh;
+	text-align: center;
+}
+
+footer div p{
+	margin: none;
+}
+
+#LogOut{
+	width: 100%; 
+	text-align: center;
+}
+
+footer div p a{
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding-right:2vw;
+	padding-left:2vw;
+	padding-top:0.5vw;
+	padding-bottom:0.5vw;
+	font-family: Monaco, monospace;
+	border-radius: 40px;
+}
+
+/*login and registeration page styling*/
+#Website_title_login{
+	text-align: center;
+	background-color: black;
+	height: 60px;
+}
+
+
+#Website_title_login h2{
+	color: white;
+	font-family: Courier, monospace;
+	margin: 0;
+	padding: 0;
+	font-size: 1.5rem;
+	padding-top: 17px;
+}
+
+#LoginForm{
+	text-align: center;
+	background-color: black;
+	margin: 10vh auto;
+	padding-bottom: 2vh;
+	width: 30vw;
+	height: auto;
+	border-radius: 30px;
+}
+
+#LoginForm h3{
+	color: white;
+	padding-top: 2vh;
+	font-family: Courier, monospace;
+	font-size: 2vw;
+}
+
+
+#LoginForm form div{
+	color: white;
+	padding-top: 0.5vh;
+}
+
+#LoginForm form div label{
+	text-align: left;
+	display: block;
+	margin: 10px;
+}
+
+#LoginForm form div input{
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+
+#LoginForm form p{
+	color: white;
+}
+
+#LoginForm form p a{
+	color: red;
+	text-decoration: none;
+}
+
+#LoginForm form div button{
+	width: 20%;
+	height: 30px;
+	border-radius: 50px;
+}
+
+#login_Page{
+	background-image: url(../image/login.jpg);
+}
+
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 2px solid red; 
+	background: #f2dede; 
+	border-radius: 20px; 
+	text-align: center;
+	color: red;
+}
+
+
+/*Search Book Page Styling*/
+#SearchOptions{
+	visibility: hidden;
+}

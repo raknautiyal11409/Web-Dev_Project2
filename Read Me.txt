@@ -1,0 +1,15 @@
+This is a Library Website using LocalHost and Xampp servers. This website was created using HTML, CSS and PHP
+A database was also created to keep track of the books in the library. This database was then implemented into the website using PHP.
+This website consists of a log-in and registration system.
+Users can:
+- Reserve books.
+- Return books.
+- Search books by category, author name, book title or by both book title and author.
+- View reserved books.
+
+Sample user log-in details:
+Username - tommy100
+Password - 123456
+
+You can also register with your own username and password to access the website. 
+All of this data is stored in the connected database.
